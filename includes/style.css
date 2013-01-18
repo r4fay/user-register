@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Sans-serif;
+	line-height: 24px;
+	background: url("../images/bg.png") repeat;
+}
+
+#container {
+	box-sizing: border-box;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: url("../images/header.png");
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: "Ubuntu", Arial, Sans-serif;
+	font-size: 48px;
+	line-height: 72px;
+	text-shadow: 1px 1px 0 white;
+}
+
+h2 {
+	font-family: "Ubuntu", Arial, Sans-serif;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+h3 {
+	font-family: "Ubuntu", Arial, Sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+p {
+	margin-bottom: 24px;
+}
+
+.notice {
+	background: rgba(216,216,216, 1);
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	padding: 5px 20px 5px 20px;
+}
+
+.success {
+	margin-top: 26px;
+	background: rgba(127,175,27, 1);
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	padding: 5px 20px 5px 20px;
+}
+
+.error {
+	margin-top: 26px;
+	background: rgba(255,64,64, 1);
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	padding: 5px 20px 5px 20px;
+}
+
+.error li {
+	margin-left: 20px;
+	padding: 2px 0;
+}
+
+#header {
+	background: rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	color: #333333;
+}
+
+#content {
+	padding: 20px;
+	float: left;
+	width: 700px;
+	color: #333333;
+}
+
+#menu {
+	width: 200px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 45px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+#menu ul
+{
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 5px 10px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+#menu ul li:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+form ul {
+	list-style: none;
+}
+
+form label {
+	display: block;
+	margin-bottom: 2px;
+}
+
+form input[type=text], input[type=password] {
+	width: 200px;
+	height: 20px;
+	border: none;
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+form input[type=submit] {
+	width: 100px;
+	margin-top: 10px;
+	font-weight: bold;
+	padding: 10px;
+}
